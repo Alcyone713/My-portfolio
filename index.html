@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--CSS Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Manasvi singh chauhan portfolio</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav>
+    <h1>Manasvi singh chauhan</h1>
+    <ul class="navigation">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="burger-menu" id="burger-menu">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+      <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+    </button>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="about">
+    <img src="assets/images/wfh_1.svg" alt="jane-doe" loading="lazy" class="hero-img" />
+    <div class="bio animate__animated animate__shakeX">
+      <h2 class="bio-title">Hi, I am Manasvi</h2>
+      <p class="bio-text">
+        I am a computer science and engineering student at Indira Gandhi Delhi Technical University for Women. I am in
+        my second year and I love web development and competitive programming. Here is a link to my resume:
+      </p>
+      <p>
+        <a href="https://drive.google.com/file/d/18DaQcL7777Kt4BCe_nk2k4vAUGszWOek/view?usp=sharing">Click here to see my resume</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- More about -->
+  <section class="more-about">
+    <h2>More About Me</h2>
+    <p>
+      I consider myself an innovative thinker, a problem-solver and a team player.
+      Looking forward to securing a position where I can efficiently contirbute my skills for the growth of the organisation and 
+      my build professional career. As a firm believer of Bhagvad Gita, I maintain that the outcome is not in my hands, only my own 
+      efforts are, hence I am not afraid of taking risks and trying new things. 
+    </p>
+    <p>
+      I believe in collaboration over competition, playing team sports have made me realize that you can't win unless you have
+      your teammate's back. I am an avid reader and a creative thinker. I am also an artist; drawing has taught me the 
+      value of patience and perseverance. 
+    </p>
+    <p>
+    I love web development and I am looking forward to learning MERN stack. I am a 3 star coder at codechef and an alpha Microsoft Learn Student Ambassador. I am also interested in learning
+    Artificial intelligence and machine learning. 
+     Some of my hobbies are reading, watching anime, drawing and painting, competitive programming, writing short stories and playing volleyball.
+    </p>
+  </section>
+
+  <!-- Skills section -->
+  <section class="skills" id="skills">
+    <h2 class="skill-header">My Top Skills</h2>
+
+    <div class="skills-wrapper">
+      <div class="first-set animate__animated animate__pulse">
+        <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card" />
+      </div>
+
+      <div class="second-set animate__animated animate__pulse">
+        <img src="assets/icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-c++.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-unity.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-c-sharp.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="https://img.icons8.com/ios/100/000000/mysql-logo.png" alt="" loading="lazy" class="icon icon-card" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects section -->
+  <section class="projects" id="projects">
+    <h2 class="projects-title">Some of my Recent Projects</h2>
+    <div class="projects-container">
+      <div class="project-container project-card">
+        <img src="assets/images/JohnLemon.png" alt="expense-tracker" loading="lazy" class="project-pic" />
+        <h3 class="project-title">John lemon's haunted jaunt</h3>
+        <p class="project-details">
+          This is an adventure game made in unity using C#. It was made as a group project where I worked on creating
+          scripts for winning and losing and made the enemies.
+        </p>
+        <a href="https://alcyone713.itch.io/john-lemons-haunted-jaunt" target="_blank" class="project-link">Check it
+          Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img src="assets/images/kviz.png" alt="netflic-clone" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Kviz</h3>
+        <p class="project-details">
+          It is fully responsive quiz app made in javascript and the questions are fetched in real time from open trivia
+          database API. The high scores are stored in local storage.
+
+        </p>
+        <a href="https://alcyone713.github.io/Kviz/" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img src="assets/images/Notes.png" alt="greeny-earth" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Magic notes</h3>
+        <p class="project-details">
+          This is a fully responsive note taking application in vanilla JavaScript. The user is able to add and delete
+          notes, as well as search for notes. The notes are stored in local Storage.
+
+        </p>
+        <a href="https://alcyone713.github.io/My-Notes/" target="_blank" class="project-link">Check it Out</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact section -->
+  <section class="contact" id="contact">
+    <h2>Get In Touch With Me</h2>
+    <div class="contact-form-container">
+      <div class="contact-form">
+        <form action="https://formspree.io/f/mwkyppov" method="POST">
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field"
+              required />
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field"
+              required />
+          </div>
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
+              class="input-field" required></textarea>
+          </div>
+          <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social accounts - Fixed to the right -->
+  <div class="socials">
+    <a href="https://www.linkedin.com/in/manasvi-singh-chauhan-156030202/" target="_blank"><img
+        src="assets/icons/icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy" class="socicon" /></a>
+    <a href="https://github.com/Alcyone713" target="_blank"><img src="assets/icons/icons8-github.gif" alt="Github"
+        class="socicon" /></a>
+    <a href="https://www.codechef.com/users/manasvi03" target="_blank"><img src="assets/icons/icons8-codechef.svg"
+        alt="codechef" loading="lazy" class="socicon" /></a>
+  </div>
+
+
+  <!-- Scroll to top -->
+  <i class="scroll-up" id="scroll-up"><img src="assets/icons/icons8-upward-arrow.gif" class="socicon up-arrow"
+      alt="" /></i>
+
+  <!-- Footer section -->
+  <footer>
+    <p class="copy">&copy; Copyright 2021</p>
+  </footer>
+
+  <!-- Website scripts -->
+  <script src="assets/js/app.js"></script>
+
+  <!-- Ion icons scripts -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
